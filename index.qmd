@@ -10,7 +10,7 @@ about:
       href: mailto:arianabardauil@gmail.com
     - icon: file-pdf
       text: CV
-      href: https://ariibard.github.io/pdfs/cv.pdf  
+      href: https://github.com/ariibard/ariana-portfolio/blob/main/pdfs/cv.pdf  
     - icon: github
       text: GitHub
       href: https://github.com/ariibard
