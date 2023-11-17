@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/ariibard/ariana-portfolio/blob/main/pdfs/cv.pdf" rel="" target="">
+    <a class="nav-link" href="./cv.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
@@ -181,10 +181,32 @@ ul.task-list li input[type="checkbox"] {
 <p>Participación en congresos, artículos publicados y proyectos con código</p>
 </div>
 <div id="listing-sample-listings" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-sample-listings-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-sample-listings'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-categories="R,shiny" data-listing-date-sort="1700190000000" data-listing-file-modified-sort="1700246530016" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./posts/tablero-salud/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
+<div class="quarto-grid-item card h-100 card-center borderless">
 <p class="card-img-top">
 <img src="./posts/tablero-salud/imagen.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
@@ -209,7 +231,7 @@ Analizá la Cobertura de Salud en la Ciudad Autónoma de Buenos Aires (CABA)
 Ariana Bardauil
 </div>
 <div class="listing-date">
-Nov 17, 2023
+11/17/23
 </div>
 </div>
 </div>
@@ -218,7 +240,7 @@ Nov 17, 2023
 </div>
 <div class="g-col-1" data-index="1" data-categories="shiny,R" data-listing-date-sort="1699930800000" data-listing-file-modified-sort="1700243050952" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./posts/tablero-dicenlosmedios/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
+<div class="quarto-grid-item card h-100 card-center borderless">
 
 <p class="card-img-top"><img src="posts\tablero-dicenlosmedios\imagen.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
@@ -242,7 +264,7 @@ Dicen los medios. Un tablero que te permite analizar qué, cómo y cuanto hablan
 Ariana Bardauil
 </div>
 <div class="listing-date">
-Nov 14, 2023
+11/14/23
 </div>
 </div>
 </div>

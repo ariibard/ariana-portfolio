@@ -18,7 +18,7 @@
     "href": "publicaciones.html",
     "title": "Proyectos",
     "section": "",
-    "text": "Participación en congresos, artículos publicados y proyectos con código\n\n\n\n\n\n\n\n\n\n\n\nShiny App - Cobertura de Salud en CABA\n\n\n\nR\n\n\nshiny\n\n\n\n\n\n\n\n\nAriana Bardauil\n\n\nNov 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nTablero Dicen los Medios\n\n\n\nshiny\n\n\nR\n\n\n\n\n\n\n\n\nAriana Bardauil\n\n\nNov 14, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Participación en congresos, artículos publicados y proyectos con código\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nShiny App - Cobertura de Salud en CABA\n\n\n\nR\n\n\nshiny\n\n\n\n\n\n\n\n\nAriana Bardauil\n\n\n11/17/23\n\n\n\n\n\n\n\n\n\n\n\n\n\nTablero Dicen los Medios\n\n\n\nshiny\n\n\nR\n\n\n\n\n\n\n\n\nAriana Bardauil\n\n\n11/14/23\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -75,5 +75,12 @@
     "title": "Shiny App - Cobertura de Salud en CABA",
     "section": "",
     "text": "Analizá la Cobertura de Salud en la Ciudad Autónoma de Buenos Aires (CABA)\n\nEste tablero fue elaborado como trabajo final de la materia Introducción al procesamiento, análisis y visualización interactiva de datos abiertos en salud de la Maestría en Generación y Análisis de Información Estadística (UNTREF). Muestra información sobre la cobertura de salud en la Ciudad Autónoma de Buenos Aires (CABA) por comuna, año y sexo. El mismo fue elaborado a partir de Datos Abiertos del GCBA\n Accedé a la Shiny"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "CV ARIANA BARDAUIL de Ariana Bardauil"
   }
 ]

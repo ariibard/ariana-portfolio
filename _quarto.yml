@@ -23,7 +23,7 @@ website:
       - href: publicaciones.qmd
         text: Proyectos
       - text: CV
-        href: https://github.com/ariibard/ariana-portfolio/blob/main/pdfs/cv.pdf
+        href: cv.qmd
       - icon: github
         href: https://github.com/ariibard
       - icon: linkedin

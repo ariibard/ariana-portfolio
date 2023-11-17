@@ -7,9 +7,11 @@ listing:
   type: grid
   grid-columns: 2
   grid-item-align: center
+  grid-item-border: false
   categories: unnumbered
-  sort-ui: false
-  filter-ui: false
+  sort-ui: [title, date]
+  filter-ui: [title, date]
+  date-format: short
 page-layout: full
 title-block-banner: true
 ---
